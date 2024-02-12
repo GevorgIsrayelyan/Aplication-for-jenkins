@@ -1,2 +1,4 @@
-echo "<html><body bgcolor=black><center><h1><p><front color=red>Server-test-2</h1></body></html>" > /var/www/html/index.html
-
+#!/bin/bash
+sudo -i apt-get update -y
+echo "<html><body bgcolor=black><center><h1><p><front color=red>Web Server-1</h1></body></html>" > /var/www/html/index.html
+sudo service apache2 start
